@@ -7,7 +7,9 @@ lsp.ensure_installed({
   'rust_analyzer',
   'pyright',
   'vimls',
-  'lua_ls'
+  'lua_ls',
+  'cmake',
+
 })
 
 -- Fix Undefined global 'vim'
@@ -60,3 +62,4 @@ lsp.setup()
 vim.diagnostic.config({
     virtual_text = true
 })
+
