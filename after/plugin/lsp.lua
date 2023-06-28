@@ -9,6 +9,7 @@ lsp.ensure_installed({
   'vimls',
   'lua_ls',
   'cmake',
+  'clangd'
 
 })
 
